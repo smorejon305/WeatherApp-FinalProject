@@ -12,20 +12,29 @@ h1 {
 /* City Search */
 h2 {
   font-family: "Roboto", sans-serif;
+  padding: 2rem;
   text-align: center;
 }
+/* Temp  */
 h3 {
   font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 
 h4 {
   font-family: "Calistoga", cursive;
+  font-size: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 
 ul {
   font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
   list-style: none;
   text-align: center;
 }
@@ -35,7 +44,7 @@ ul {
 }
 
 .weatherIcon {
-  font-size: 4rem;
+  font-size: 6rem;
   text-align: center;
 }
 
