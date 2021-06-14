@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather the Storm</title>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -33,77 +34,86 @@
     <script src="src/app.js"></script>
   </head>
   <body>
-    <div class="container">
-      <h1>Weather the Storm</h1>
-
+    <div class="weather-app-wrapper">
       <div class="container">
-        <div class="row">
-          <form class="citySearch">
-            <input type="text" class="searchForm" id />
-            <button class="btn-primary">Search</button>
-          </form>
-        </div>
+        <h1>Weather the Storm</h1>
 
-        <div class="row">
-          <h2>City Name, (State), Country</h2>
-        </div>
-        <div class="row weatherIcon">
-          <i class="fas fa-sun"></i>
-        </div>
-
-        <div class="row">
-          <h3>26 <sup>℃</sup></h3>
-        </div>
-
-        <div class="row">
-          <ul>
-            <li>Current Conditions</li>
-            <li>Humidity</li>
-            <li>Wind</li>
-          </ul>
-        </div>
-        <div class="container forecast">
+        <div class="container">
           <div class="row">
-            <h4>7-Day Forecast</h4>
-            <div class="col forecast">
-              Monday
-              <div class="forecastIcon"><i class="fas fa-sun"></i></div>
-              <div class="forecastTemp">27 <sup>℃</sup></div>
-            </div>
-            <div class="col forecast">
-              Tuesday
-              <div class="forecastIcon"><i class="fas fa-cloud-sun"></i></div>
-              <div class="forecastTemp">27 <sup>℃</sup></div>
-            </div>
-            <div class="col forecast">
-              Wednesday
-              <div class="forecastIcon">
-                <i class="fas fa-cloud-sun-rain"></i>
+            <form class="citySearch">
+              <input type="text" class="searchForm" id />
+              <button class="btn-primary searchButton">Search</button>
+            </form>
+          </div>
+
+          <div class="row">
+            <h2>City Name, (State), Country</h2>
+          </div>
+          <div class="row weatherIcon">
+            <i class="fas fa-sun"></i>
+          </div>
+
+          <div class="row">
+            <h3>26 <sup>℃</sup></h3>
+          </div>
+
+          <div class="row">
+            <ul>
+              <li>Current Conditions</li>
+              <li>Humidity</li>
+              <li>Wind</li>
+            </ul>
+          </div>
+          <div class="container forecast">
+            <div class="row">
+              <h4>7-Day Forecast</h4>
+              <div class="col forecast">
+                Monday
+                <div class="forecastIcon"><i class="fas fa-sun"></i></div>
+                <div class="forecastTemp">27 <sup>℃</sup></div>
               </div>
-              <div class="forecastTemp">27 <sup>℃</sup></div>
-            </div>
-            <div class="col forecast">
-              Thursday
-              <div class="forecastIcon"><i class="fas fa-cloud"></i></div>
-              <div class="forecastTemp">27 <sup>℃</sup></div>
-            </div>
-            <div class="col forecast">
-              Friday
-              <div class="forecastIcon"><i class="fas fa-sun"></i></div>
-              <div class="forecastTemp">27 <sup>℃</sup></div>
-            </div>
-            <div class="col forecast">
-              Saturday
-              <div class="forecastIcon"><i class="fas fa-sun"></i></div>
-              <div class="forecastTemp">27 <sup>℃</sup></div>
-            </div>
-            <div class="col forecast">
-              Sunday
-              <div class="forecastIcon"><i class="fas fa-sun"></i></div>
-              <div class="forecastTemp">27 <sup>℃</sup></div>
+              <div class="col forecast">
+                Tuesday
+                <div class="forecastIcon"><i class="fas fa-cloud-sun"></i></div>
+                <div class="forecastTemp">27 <sup>℃</sup></div>
+              </div>
+              <div class="col forecast">
+                Wednesday
+                <div class="forecastIcon">
+                  <i class="fas fa-cloud-sun-rain"></i>
+                </div>
+                <div class="forecastTemp">27 <sup>℃</sup></div>
+              </div>
+              <div class="col forecast">
+                Thursday
+                <div class="forecastIcon"><i class="fas fa-cloud"></i></div>
+                <div class="forecastTemp">27 <sup>℃</sup></div>
+              </div>
+              <div class="col forecast">
+                Friday
+                <div class="forecastIcon"><i class="fas fa-sun"></i></div>
+                <div class="forecastTemp">27 <sup>℃</sup></div>
+              </div>
+              <div class="col forecast">
+                Saturday
+                <div class="forecastIcon"><i class="fas fa-sun"></i></div>
+                <div class="forecastTemp">27 <sup>℃</sup></div>
+              </div>
+              <div class="col forecast">
+                Sunday
+                <div class="forecastIcon"><i class="fas fa-sun"></i></div>
+                <div class="forecastTemp">27 <sup>℃</sup></div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="footer">
+        <a href="https://github.com/smorejon305/WeatherApp-FinalProject"
+          >Open-Source Code</a
+        >
+        by Stefanie Morejon
       </div>
     </div>
 
